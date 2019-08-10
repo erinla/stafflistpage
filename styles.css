@@ -1,0 +1,83 @@
+body{
+    font-family: 'Mouse Memoirs';
+    margin: 0;
+    padding: 0;
+    background-image: url(satinweave.png);
+  }
+  .title {
+      text-align: center;
+      
+  }
+  .all-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    color: black;
+    overflow: hidden;
+  }
+  .department-name{
+      width: 960px;
+      margin: auto;
+    background: white;
+    text-align: center;
+  }
+  .department-name h2{
+    font-size: 40px;
+    display: inline-block;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+  }
+  /* Picture Alignment  */
+  .picalign2{
+    float: left;
+    width: calc(100% / 2);
+    padding: 40px 0;
+    transition: 0.4s;
+  }
+
+  .picalign2 img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .picalign3{
+    float: left;
+    width: calc(100% / 3);
+    padding: 40px 0;
+    transition: 0.4s;
+  }
+
+  .picalign3 img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .picalign1{
+    float: left;
+    width: calc(100% / 1);
+    padding: 40px 0;
+    transition: 0.4s;
+  }
+
+  .picalign1 img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+ 
+  .name{
+      font-size: 40px;
+    margin-top: 12px;
+    text-transform: uppercase;
+  }
+  .title{
+    font-size: 24px;
+    color: black;
+  }
+
+
+  
+
+  
