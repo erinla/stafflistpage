@@ -1,12 +1,13 @@
 body{
-    font-family: 'Mouse Memoirs';
-    margin: 0;
-    padding: 0;
-    background-image: url(satinweave.png);
+  font-family: 'Farro';
+  margin: 0;
+   padding: 0;
+   background-image: url(satinweave.png);
   }
-  .title {
-      text-align: center;
-      
+  h1 {
+    text-align: center;
+    color: black;
+    font-size:50px;
   }
   .all-container{
     max-width: 1200px;
@@ -16,23 +17,24 @@ body{
     overflow: hidden;
   }
   .department-name{
-      width: 960px;
-      margin: auto;
+    width: 60%;
+    margin: auto;
     background: white;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .department-name h2{
     font-size: 40px;
     display: inline-block;
     border-bottom: 2px solid;
     padding-bottom: 5px;
+    border-color: #a9d8cb;
   }
   /* Picture Alignment  */
   .picalign2{
     float: left;
     width: calc(100% / 2);
     padding: 40px 0;
-    transition: 0.4s;
   }
 
   .picalign2 img{
@@ -45,7 +47,6 @@ body{
     float: left;
     width: calc(100% / 3);
     padding: 40px 0;
-    transition: 0.4s;
   }
 
   .picalign3 img{
@@ -58,7 +59,6 @@ body{
     float: left;
     width: calc(100% / 1);
     padding: 40px 0;
-    transition: 0.4s;
   }
 
   .picalign1 img{
@@ -66,18 +66,14 @@ body{
     height: 200px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
- 
+
   .name{
-      font-size: 40px;
+    font-size: 40px;
     margin-top: 12px;
-    text-transform: uppercase;
   }
   .title{
     font-size: 24px;
-    color: black;
+    color: #a9d8cb;
+    padding: 10px;
   }
 
-
-  
-
-  
