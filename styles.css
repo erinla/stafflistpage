@@ -8,6 +8,7 @@ body{
     text-align: center;
     color: black;
     font-size:50px;
+    text-shadow: 2px 2px white;
   }
   .all-container{
     max-width: 1200px;
@@ -22,12 +23,13 @@ body{
     background: white;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 45px;
   }
   .department-name h2{
     font-size: 40px;
     display: inline-block;
-    border-bottom: 2px solid;
-    padding-bottom: 5px;
+    border-bottom: 3px solid;
+    margin-bottom: -20px;
     border-color: #a9d8cb;
   }
   /* Picture Alignment  */
@@ -71,9 +73,104 @@ body{
     font-size: 40px;
     margin-top: 12px;
   }
-  .title{
-    font-size: 24px;
-    color: #a9d8cb;
-    padding: 10px;
-  }
+
+/* Overlays */
+#abdul:hover::before{
+    content: 'Sales Director * 555-5551';
+    position: relative;
+    bottom: -300px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    border-top: 3px solid;
+    border-color: #a9d8cb;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#david:hover::before{
+  content: 'Sales Associate * 555-5552';
+  position: relative;
+  bottom: -285px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border-top: 3px solid;
+  border-color: #a9d8cb;
+  padding-top: 10px;
+}
+
+#angie:hover::before{
+  content: 'Service Director * 555-5553';
+  position: relative;
+  bottom: -285px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border-top: 3px solid;
+  border-color: #a9d8cb;
+  padding-top: 10px;
+}
+
+#matt:hover::before{
+  content: 'Service Advisor * 555-5554';
+  position: relative;
+  bottom: -285px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border-top: 3px solid;
+  border-color: #a9d8cb;
+  padding-top: 10px;
+}
+
+#chris:hover::before{
+  content: 'Parts Director * 555-5555';
+  position: relative;
+  bottom: -285px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border-top: 3px solid;
+  border-color: #a9d8cb;
+  padding-top: 10px;
+}
+
+#sean:hover::before{
+  content: 'Parts Associate * 555-5556';
+  position: relative;
+  bottom: -285px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border-top: 3px solid;
+  border-color: #a9d8cb;
+  padding-top: 10px;
+}
+
+#jim:hover::before{
+  content: 'Parts Associate * 555-5557';
+  position: relative;
+  bottom: -285px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border-top: 3px solid;
+  border-color: #a9d8cb;
+  padding-top: 10px;
+}
+
+#debbie:hover::before{
+  content: 'Finance Director * 555-5558';
+  position: relative;
+  bottom: -285px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border-top: 3px solid;
+  border-color: #a9d8cb;
+  padding-top: 10px;
+}
+
+
 
