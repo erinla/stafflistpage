@@ -1,8 +1,12 @@
+/* ************************************************************************* */
+/* CSS for Staff */
+/* ************************************************************************* */
 body{
   font-family: 'Farro';
   margin: 0;
    padding: 0;
    background-image: url(satinweave.png);
+   height: 100%;
   }
   h1 {
     text-align: center;
@@ -18,12 +22,11 @@ body{
     overflow: hidden;
   }
   .department-name{
-    width: 60%;
+    width: 65%;
     margin: auto;
     background: white;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding-bottom: 45px;
+    height: 90%;
   }
   .department-name h2{
     font-size: 40px;
@@ -72,105 +75,136 @@ body{
   .name{
     font-size: 40px;
     margin-top: 12px;
+    color:  #a9d8cb;
+    text-shadow: .5px .5px black;
   }
 
 /* Overlays */
-#abdul:hover::before{
-    content: 'Sales Director * 555-5551';
+#abdul:hover::after{
+    content: "Sales Director | 555-5551";
     position: relative;
-    bottom: -300px;
     color: black;
     font-size: 20px;
     text-align: center;
-    border-top: 3px solid;
-    border-color: #a9d8cb;
-    padding-top: 10px;
-    text-align: center;
 }
 
-#david:hover::before{
-  content: 'Sales Associate * 555-5552';
+#david:hover::after{
+  content: 'Sales Associate | 555-5552';
   position: relative;
-  bottom: -285px;
   color: black;
   font-size: 20px;
   text-align: center;
-  border-top: 3px solid;
-  border-color: #a9d8cb;
-  padding-top: 10px;
 }
 
-#angie:hover::before{
-  content: 'Service Director * 555-5553';
+#angie:hover::after{
+  content: 'Service Director | 555-5553';
   position: relative;
-  bottom: -285px;
   color: black;
   font-size: 20px;
   text-align: center;
-  border-top: 3px solid;
-  border-color: #a9d8cb;
-  padding-top: 10px;
 }
 
-#matt:hover::before{
-  content: 'Service Advisor * 555-5554';
+#matt:hover::after{
+  content: 'Service Advisor | 555-5554';
   position: relative;
-  bottom: -285px;
   color: black;
   font-size: 20px;
   text-align: center;
-  border-top: 3px solid;
-  border-color: #a9d8cb;
-  padding-top: 10px;
 }
 
-#chris:hover::before{
-  content: 'Parts Director * 555-5555';
+#chris:hover::after{
+  content: 'Parts Director | 555-5555';
   position: relative;
-  bottom: -285px;
   color: black;
   font-size: 20px;
   text-align: center;
-  border-top: 3px solid;
-  border-color: #a9d8cb;
-  padding-top: 10px;
 }
 
-#sean:hover::before{
-  content: 'Parts Associate * 555-5556';
+#sean:hover::after{
+  content: 'Parts Associate | 555-5556';
   position: relative;
-  bottom: -285px;
   color: black;
   font-size: 20px;
   text-align: center;
-  border-top: 3px solid;
-  border-color: #a9d8cb;
-  padding-top: 10px;
 }
 
-#jim:hover::before{
-  content: 'Parts Associate * 555-5557';
+#jim:hover::after{
+  content: 'Parts Associate | 555-5557';
   position: relative;
-  bottom: -285px;
   color: black;
   font-size: 20px;
   text-align: center;
-  border-top: 3px solid;
-  border-color: #a9d8cb;
-  padding-top: 10px;
 }
 
-#debbie:hover::before{
-  content: 'Finance Director * 555-5558';
+#debbie:hover:after{
+  content: 'Finance Director | 555-5558';
   position: relative;
-  bottom: -285px;
   color: black;
   font-size: 20px;
   text-align: center;
-  border-top: 3px solid;
-  border-color: #a9d8cb;
-  padding-top: 10px;
+  
 }
 
+/* ************************************************************************* */
+/* CSS for Navigation */
+/* ************************************************************************* */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  font-family: 'Farro';
+}
 
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color:  #a9d8cb;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}

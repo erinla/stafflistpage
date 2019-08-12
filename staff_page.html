@@ -4,12 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Farro' rel='stylesheet'>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Staff List</title>
 </head>
 
 <body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#home">Home</a>
+
+        <div class="dropdown">
+            <button class="dropbtn" onclick="dropdown()">Inventory
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="inventory">
+                <a href="#">New</a>
+                <a href="#">Used</a>
+                <a href="#">Cars</a>
+                <a href="#">Trucks</a>
+                <a href="#">SUVs</a>
+            </div>
+        </div>
+
+        <a href="#news">About Us</a>
+
+        <a href="#news">Contact</a>
+
+    </div>
+
     <!-- Meet the Team -->
     <h1>Meet the Team</h1>
 
@@ -22,13 +49,13 @@
 
 
                 <div class="picalign2" id="abdul">
-                    <div class="name">Abdul</div>
                     <img src="placeholder_1.jpg" alt="Abdul">
+                    <div class="name">Abdul</div>
                 </div>
 
                 <div class="picalign2" id="david">
-                    <div class="name">David</div>
                     <img src="placeholder_1.jpg" alt="David">
+                    <div class="name">David</div>
                 </div>
 
             </div>
@@ -83,16 +110,22 @@
             <h2>Finance Department</h2>
             <div class="pics">
 
+
+
                 <div class="picalign1" id="debbie">
                     <img src="placeholder_1.jpg" alt="Debbie">
                     <div class="name">Debbie</div>
                 </div>
 
+
+
             </div>
         </div>
     </div>
-
-
+    <!-- JS and JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
